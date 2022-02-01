@@ -1,0 +1,19 @@
+{
+    "name": "split_nodejs",
+    "version": "1.0.0",
+    "description": "Split catalog.csv in NodeJS",
+    "main": "split_catalog_csv.js",
+    "scripts": {
+        "start": "nodemon split_catalog_csv.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Francesco Cataldo",
+    "license": "ISC",
+    "dependencies": {
+        "@fast-csv/format": "^4.3.5",
+        "@fast-csv/parse": "^4.3.6",
+        "csv-parser": "^3.0.0",
+        "fast-csv": "^4.3.6",
+        "random-words": "^1.1.2"
+    }
+}
